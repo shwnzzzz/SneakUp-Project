@@ -1,4 +1,4 @@
-# 👟 SneakUp
+# 👟 ⎯ SneakUp
 
 ### Seu ritmo. Seu movimento.
 
