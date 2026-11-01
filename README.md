@@ -6,7 +6,7 @@ A **SneakUp** é uma loja virtual de tênis esportivos desenvolvida para unir es
 
 ## 🌐 Demonstração
 
-🔗 **Acesse o projeto online:** 
+🔗 **Acesse o projeto online:** https://shwnzzzz.github.io/SneakUp-ProjectShw/
 
 <img src="Sneakup.png" width="80%" alt="Prévia da loja SneakUp">
 
