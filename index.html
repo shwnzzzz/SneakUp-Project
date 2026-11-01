@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090909" />
+  <meta name="description" content="SneakUp — tênis esportivos para acompanhar todos os seus movimentos." />
+  <title>SneakUp | ProjecShw</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" type="image/png" href="assets/sneakup-favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<body>
+  <div class="announcement"><span>FRETE GRÁTIS ACIMA DE R$ 499</span><span
+      class="announcement-dot"></span><span>ATÉ 12X SEM JUROS</span></div>
+
+  <header class="site-header container">
+    <a class="brand" href="#inicio" aria-label="SneakUp início">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" role="presentation">
+          <path d="M5 21.5 11.7 7h5.4l-2.7 6.1H27l-6.7 14.3h-5.4l2.9-6H5Z"></path>
+          <path class="brand-mark-cut" d="m14.1 15.7 3.5-7.5 3.5 7.5-3.5 7.6Z"></path>
+        </svg></span>
+      <span class="brand-word">SNEAK<span> . UP</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#colecao">Coleção</a>
+      <a href="#manifesto">Oferta</a>
+      <a href="#beneficios">Benefícios</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button theme-toggle" type="button" aria-label="Alternar tema" title="Alternar tema">
+        <span class="theme-sun">☼</span><span class="theme-moon">◐</span>
+      </button>
+      <button class="bag-button cart-button" type="button" data-open-cart>
+        <span class="cart-icon" aria-hidden="true"><svg viewBox="0 0 24 24" role="presentation">
+            <path d="M3 4h2l2.1 10.1a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 1.9-1.4L20.5 8H6" />
+            <circle cx="9" cy="19" r="1.3" />
+            <circle cx="17" cy="19" r="1.3" />
+          </svg></span><span>Carrinho</span><span class="bag-count" aria-label="0 itens">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> SNEAKUP / 01</p>
+        <h1>Seu ritmo.<br /><em>Seu movimento.</em></h1>
+        <p class="hero-text">Tênis com presença para quem não precisa diminuir o passo. Design urbano, conforto técnico
+          e uma atitude que combina com tudo.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#colecao">Explorar coleção <span>↗</span></a>
+          <a class="text-link" href="#modelo-3d">Ver em 3D <span>→</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>01</strong><span>Em edições limitadas</span></div>
+          <div><strong>24h</strong><span>Envio para todo o Brasil</span></div>
+          <div><strong>12x</strong><span>Sem juros no cartão</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" id="modelo-3d">
+        <div class="visual-grid"></div>
+        <div class="visual-label label-top">MODELO / 001</div>
+        <div class="visual-label label-bottom">3D VIEW</div>
+        <model-viewer class="sneaker-viewer model-hover-motion" src="assets/sneakup-sneaker.glb" alt="Tênis esportivo SneakUp em 3D"
+          camera-controls shadow-intensity="1.2"
+          exposure="1.08" camera-orbit="28deg 68deg 3.05m" field-of-view="27deg" interaction-prompt="none">
+        </model-viewer>
+        <div class="viewer-caption"><span class="drag-icon">↔</span> Arraste para girar <span>·</span> Pinça para
+          aproximar</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Destaques SneakUp">
+      <div class="ticker-track"><span>FRETE GRÁTIS ACIMA DE R$ 499</span><i>✦</i><span>12X SEM
+          JUROS</span><i>✦</i><span>30 DIAS PARA TROCAS</span><i>✦</i><span>ENVIOS PARA TODO O
+          BRASIL</span><i>✦</i><span>DESIGN QUE SE MOVE</span><i>✦</i><span>CONFORTO SEM
+          DESCULPA</span><i>✦</i><span>SEU PASSO, SUA ASSINATURA</span><i>✦</i><span>MATERIAIS
+          PREMIUM</span><i>✦</i><span>ATENDIMENTO HUMANO</span><i>✦</i><span>FRETE GRÁTIS ACIMA DE R$ 499</span><i>✦</i>
+          <span>12X SEM JUROS</span><i>✦</i><span>30 DIAS PARA TROCAS</span><i>✦</i></div>
+    </section>
+
+    <section class="collection container" id="colecao">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> A COLEÇÃO</p>
+          <h2>Escolha seu <em>próximo passo.</em></h2>
+        </div>
+      </div>
+      <div class="collection-toolbar">
+        <div class="filter-list" role="tablist" aria-label="Filtrar produtos">
+          <button class="filter-button is-active" data-filter="Todos" role="tab">Todos <span>06</span></button>
+          <button class="filter-button" data-filter="Corrida" role="tab">Corrida <span>02</span></button>
+          <button class="filter-button" data-filter="Lifestyle" role="tab">Lifestyle <span>02</span></button>
+          <button class="filter-button" data-filter="Treino" role="tab">Treino <span>02</span></button>
+        </div>
+        <button class="sort-button" type="button" data-sort>Ordenar <span>↕</span></button>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="promotion container" id="manifesto">
+      <div class="promotion-visual">
+        <div class="promotion-grid"></div>
+        <span class="promotion-kicker">MODELO EM OFERTA / PROMOÇÃO</span>
+        <span class="promotion-code">SNK—AJ1 / 001</span>
+        <div class="promotion-badge"><strong>40%</strong><span>OFF</span></div>
+        <model-viewer class="promotion-model" src="assets/sneakup-promo-unboxing.glb"
+          alt="Animação 3D de tênis em promoção" camera-controls auto-rotate auto-rotate-delay="0"
+          rotation-per-second="30deg" autoplay animation-name="Animation" shadow-intensity="1.3" exposure="1.08" interaction-prompt="none"></model-viewer>
+        <div class="promotion-floor"></div>
+        <div class="promotion-stock"><span class="stock-dot"></span> ÚLTIMAS UNIDADES <span>·</span> ENTREGA IMEDIATA
+        </div>
+      </div>
+      <div class="promotion-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> OFERTA DESTAQUE</p>
+        <h2>Air Jordan 1.<br /><em>Agora é sua vez.</em></h2>
+        <p>O clássico que muda o ritmo do look. Uma edição de presença forte, disponível por tempo limitado na SneakUp.
+        </p>
+        <div class="promotion-price"><span>de <s>R$ 899,90</s></span><strong>R$ 539,90</strong><small>ou 12x de R$ 89,98
+            sem juros</small></div>
+        <div class="promotion-actions"><a class="button button-light" href="#colecao">Comprar agora
+            <span>↗</span></a><span class="promotion-note">Frete grátis<br />acima de R$ 499</span></div>
+        <div class="promotion-specs"><span><strong>01</strong> EDIÇÃO ESPECIAL</span><span><strong>40%</strong>
+            DESCONTO</span><span><strong>30 DIAS</strong> TROCA FÁCIL</span></div>
+      </div>
+    </section>
+
+    <section class="benefits container" id="beneficios">
+      <div class="benefit-item"><span class="benefit-index">01</span><span class="benefit-icon">◒</span>
+        <h3>Conforto real</h3>
+        <p>Amortecimento responsivo para o seu dia inteiro.</p>
+      </div>
+      <div class="benefit-item"><span class="benefit-index">02</span><span class="benefit-icon">↯</span>
+        <h3>Feito para durar</h3>
+        <p>Materiais resistentes, acabamento que permanece.</p>
+      </div>
+      <div class="benefit-item"><span class="benefit-index">03</span><span class="benefit-icon">◌</span>
+        <h3>Troca fácil</h3>
+        <p>30 dias para experimentar sem pressa.</p>
+      </div>
+    </section>
+
+    <section class="newsletter container">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-line"></span> ATUALIZAÇÕES</p>
+        <h2>Fique por dentro<br /><em>de todas as ofertas.</em></h2>
+      </div>
+      <form class="newsletter-form" id="newsletter-form"><label for="email">Seu melhor e-mail</label>
+        <div class="input-row"><input id="email" type="email" required placeholder="voce@email.com" /><button
+            class="button button-light" type="submit">Entrar na lista <span>↗</span></button></div>
+        <p class="form-feedback" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <div class="footer-brand"><a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true"><svg
+            viewBox="0 0 32 32" role="presentation">
+            <path d="M5 21.5 11.7 7h5.4l-2.7 6.1H27l-6.7 14.3h-5.4l2.9-6H5Z"></path>
+            <path class="brand-mark-cut" d="m14.1 15.7 3.5-7.5 3.5 7.5-3.5 7.6Z"></path>
+          </svg></span><span class="brand-word">SNEAK<span>UP</span></span></a>
+      <p>Move do seu jeito.</p>
+    </div>
+    <div class="footer-links"><a href="#colecao">Instagram</a><a href="#colecao">Atendimento</a><a
+        href="#colecao">Trocas e devoluções</a></div><span class="copyright">© 2026 SneakUp / Brasil</span>
+  </footer>
+
+  <div class="cart-backdrop" data-close-cart></div>
+  <aside class="cart-drawer" aria-label="Carrinho de compras" aria-hidden="true">
+    <div class="cart-header">
+      <div>
+        <p class="eyebrow">SEU CARRINHO</p>
+        <h2>Bag <span class="cart-heading-count">(0)</span></h2>
+      </div><button class="close-button" type="button" data-close-cart aria-label="Fechar carrinho">×</button>
+    </div>
+    <div class="shipping-meter">
+      <div class="shipping-meter-top"><span>Frete grátis</span><span class="shipping-remaining">A partir de R$
+          499</span></div>
+      <div class="meter-track"><span></span></div>
+    </div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-empty"><span>◎</span>
+      <p>Sua bag ainda está vazia.</p><button class="text-link" type="button" data-close-cart>Explorar coleção
+        →</button>
+    </div>
+    <div class="cart-footer">
+      <div class="subtotal"><span>Subtotal</span><strong>R$ 0,00</strong></div>
+      <p>Impostos calculados no checkout.</p><button class="button button-light checkout-button" type="button">Finalizar
+        compra <span>↗</span></button>
+    </div>
+  </aside>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+
+</html>

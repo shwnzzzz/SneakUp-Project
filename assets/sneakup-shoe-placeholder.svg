@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#252525"/><stop offset="1" stop-color="#0d0d0d"/></linearGradient>
+    <linearGradient id="sole" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f5f5f1"/><stop offset="1" stop-color="#a6a6a2"/></linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg)"/>
+  <path d="M125 445c85-14 140-91 204-195 17-27 40-37 68-24l130 62c48 23 78 65 153 97 35 15 61 30 65 51 5 29-17 46-56 48H188c-48 0-79-13-63-39Z" fill="#0a0a0a" stroke="#808080" stroke-width="7"/>
+  <path d="M105 455c76 24 130 15 203 15h385c35 0 63 9 71 27-12 32-62 42-129 42H181c-62 0-93-27-76-84Z" fill="url(#sole)"/>
+  <path d="m289 254 138 55-33 36-137-52Zm80 29 136 55-30 36-137-54Zm80 31 134 56-28 37-137-55Z" fill="#d6d6d1" opacity=".9"/>
+  <path d="M422 274c-8 34-3 58 16 78m31-63c-8 31-2 55 15 76m32-59c-6 25-1 47 13 66" fill="none" stroke="#f4f4f1" stroke-width="10" stroke-linecap="round"/>
+  <text x="52" y="590" fill="#a8a8a3" font-family="monospace" font-size="16" letter-spacing="4">SNEAKUP / RUNNER</text>
+</svg>
